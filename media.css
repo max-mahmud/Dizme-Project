@@ -16,6 +16,12 @@
   }
 
 @media screen and (max-width: 767px){
+    .hero-text h2{
+        font-size: 40px;
+    }
+    .my-btn{
+        font-size: 22px;
+    }
     .card{
         width: 80%;
         margin: 0 45px auto;
@@ -24,5 +30,14 @@
     .product-img{
         max-height: 400px;
         object-fit: cover;
+    }
+    .input-group-text{
+        font-size: 17px;
+    }
+    .input-group input::placeholder{
+        font-size: 17px;
+    }
+    footer h3{
+        font-size: 25px;
     }
   }
